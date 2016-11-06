@@ -1,0 +1,23 @@
+lambda 
+f1 = lambda x : x
+in[5] :f1(2)
+Out[5]: 2
+in[7] :f1("shuang")
+Out[7]: 'shuang'
+
+f2 = lambda x,y: x+y
+in[9] :f2(2,3)
+Out[9]: 5
+
+f3=lambda x,y: 'factor' if x%y==0 else 'not factor'
+in[13] :f3(4,2)
+Out[13]: 'factor'
+in[14] :f3(2,4)
+Out[14]: 'not factor'
+in[15] :f3(4,3)
+Out[15]: 'not factor'
+
+lambda is good function which can be used in Python. u also can write complex code using lambda.
+but DONT do that. 
+when the code is more than 1 line, USing def NOT lambda.
+当expression大于1 line，使用def定义，不要使用lambda.
